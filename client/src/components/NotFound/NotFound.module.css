@@ -1,0 +1,20 @@
+.notFoundContainer {
+    min-height: 100%;
+    padding-bottom: 800px;
+    background-image: url('https://www.superiorwallpapers.com/download/sad-pokemon-puppy-eyes-5120x2880.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.buttonToHome {
+    margin-bottom: .5rem;
+    padding: .5rem;
+    color: rgb(180, 180, 180);
+    text-align: center;
+    border: .7rem double rgb(74, 74, 74);
+    background: hsl(0, 6%, 10%);
+    border-radius: 16px;
+    font-size: 1rem;
+    cursor: pointer;
+}

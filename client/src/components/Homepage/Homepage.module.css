@@ -1,0 +1,30 @@
+.h1title {
+    font-size: 4rem;
+    text-align: center;
+    padding: 1rem;
+    background-image: linear-gradient(to left, #B3A125, #FFDE00);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.selectContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.selectList {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 180px;
+    height: 3rem;
+    border: 1px solid #999;
+    border-radius: 16px;
+    font-size: 1rem;
+    font-weight: 900;
+    color: #046dae;
+    margin: .5rem;
+    text-align-last: center;
+    cursor:pointer
+}

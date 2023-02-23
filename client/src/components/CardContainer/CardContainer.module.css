@@ -1,0 +1,43 @@
+.cardContainer {
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ulContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.unorganizedList {
+    display: flex;
+    list-style-type: none;
+    border: .4rem double rgb(74, 74, 74);
+    border-radius: 16px;
+    background-color: #ff3636e0;
+    justify-content: center;
+    width: 70%;
+    padding: .5rem
+}
+
+.listItem {
+    padding: 1rem;
+    margin: 1px;
+    border: 2px solid #FFDE00;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #2434b1f2;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.unorganizedList li.listItem:active {
+    background-color: #FFDE00;
+    color: black;
+}
